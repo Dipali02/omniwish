@@ -2,6 +2,11 @@
 # of the smallest subsequence such that the sum of the subsequence is greater
 # than or equal to number K.
 
+# Algorithm:
+# 1)Traverse input array and insert every array element into priority queue.
+# 2)Initialize variables that holds the sum of picked element from priority queue and the variable to get the count of picked element from priority queue to 0.
+# 3)Pop the elements out from the priority queue untill the priority queue is not empty.
+
 def lengthOfSmallestSubsequence(K, v):
     pq = []
 
