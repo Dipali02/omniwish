@@ -1,5 +1,11 @@
 # Given an array and an integer K, find the maximum for each and every contiguous subarray of size k.
 
+# Algorithm:
+# 1)Create a nested loop, the outer loop from starting index to n – k th elements. The inner loop will run for k iterations.
+# 2)Create a variable to store the maximum of k elements traversed by the inner loop.
+# 3)Find the maximum of k elements traversed by the inner loop.
+# 4)Print the maximum element in every iteration of outer loop.
+
 def Max(arr, n, k):
     max = 0
 
